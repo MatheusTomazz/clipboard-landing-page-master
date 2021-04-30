@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none ;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  
+}
+
+section{
+  padding: 50px
+}
+
+header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo{
+  padding: 70px;
+}
+
+.section--introduction{
+  text-align: center;
+  padding: 20px;
+}
+
+.section--introduction > h1{
+  font-size: 60px;
+}
+
+.section--introduction > h2{
+  font-size: 40px;
+  
+}
+
+
+p{
+  padding-top: 20px;
+  font-size: 20px;
+  color: hsl(201, 11%, 66%);
+  line-height: 30px;
+}
+
+.section--buttons{
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.button{
+  padding: 20px 30px;
+  border-radius: 50px;
+  color: #f4f4f4 ;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+a:first-child {
+  margin-right: 20px;
+}
+
+.green{
+  background-color: hsl(171, 66%, 44%);
+  
+}
+
+.green:hover{
+  background-color: hsl(171, 89%, 24%);
+}
+
+.blue{
+  background-color: hsl(233, 100%, 69%);
+}
+
+.blue:hover{
+  background-color: hsl(233, 73%, 58%);
+}
+
+
+.section--computed{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+
+.computed--text{
+  display:flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+  padding: 30px 20px;
+}
+
+.section--computed .bg{
+  background-image: url('/images/image-computer.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 700px;
+  height: auto;
+}
+
+
+
+.section--computed .section--introduction{
+  text-align: left;
+  padding-left: 50px; 
+}
+
+.item h4{
+  font-size: 20px;
+  padding: 20px 0px;
+}
+
+
+.image--devices{
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+}
+
+.image--devices img{
+  width: 70%;
+  height: auto;
+}
+
+.section--items{
+  display: flex;
+  justify-content: center;
+  padding: 50px 100px;
+  
+}
+
+.item{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  text-align: center;
+}
+
